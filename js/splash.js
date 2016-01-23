@@ -36,7 +36,7 @@ Spring.prototype.update = function() {
 
 function createPath(strength) {
     var path = new Path({
-        fillColor: '#a5adb0'
+        fillColor: '#f2f2f2'
     });
     springs = [];
     for (var i = 0; i <= values.amount; i++) {
@@ -105,6 +105,6 @@ function updateWave(path) {
 function onKeyDown(event) {
     if (event.key == 'space') {
         path.fullySelected = !path.fullySelected;
-        path.fillColor = path.fullySelected ? null : '#a5adb0';
+        path.fillColor = path.fullySelected ? null : '#f2f2f2';
     }
 }

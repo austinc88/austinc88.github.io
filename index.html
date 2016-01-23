@@ -3,12 +3,22 @@
 <html>
 
 	<head>
-		<link data-turbolinks-track="true" href="style.css" media="all" rel="stylesheet" />
+		  <meta charset="UTF-8"/>
+		  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+		  <meta name="apple-mobile-web-app-capable" content="yes"/>
+		  <meta name="apple-touch-fullscreen" content="yes"/>
+		  <meta name="msapplication-tap-highlight" content="no"/>
+		  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="style.css" />
 		<!-- Paper.js Load -->
-		<script type="text/javascript" src="js/paper-full.min.js"></script>
+		<script type="text/javascript" src="js/paper.min.js"></script>
+		<!-- External Paper -->
+		<script type="text/paperscript" src="js/splash.js" canvas="canvas"></script>
 	</head>
 
 	<body>
+		
+		<canvas id="canvas" resize="true"></canvas>
 		<div class="container">
 			<h1>Austin Chen</h1>
 			<div class="social-links">

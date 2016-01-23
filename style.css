@@ -5,9 +5,21 @@ html {
 .container {
 	max-width: 480px;
 	display: block;
-	margin: 25% auto 0;
+	margin: 15% auto 0;
 	padding: 0 20px;
 	text-align: center;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+}
+
+#canvas {
+	z-index: -1;
+	background: transparent;
+	position: absolute;
+	left: 0px;
+	right: 0px;
 }
 
 .social-links {
